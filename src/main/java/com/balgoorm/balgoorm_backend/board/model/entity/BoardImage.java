@@ -2,11 +2,11 @@ package com.balgoorm.balgoorm_backend.board.model.entity;
 
 import jakarta.persistence.*;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
+@Getter
 @NoArgsConstructor
 @Table(name = "boardImage")
 public class BoardImage {
