@@ -2,11 +2,11 @@ package com.balgoorm.balgoorm_backend.board.model.entity;
 
 import com.balgoorm.balgoorm_backend.user.model.entity.User;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
+@Getter
 @NoArgsConstructor
 public class Likes {
     @Id
