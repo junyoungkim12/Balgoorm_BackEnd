@@ -55,7 +55,7 @@
 
 ## 배포 주소
 
-🔗 [발구름 WEB IDE](https://k33d397de87b1a.user-app.krampoline.com/) (⚠️2024부터 배포가 중단되었습니다.)
+🔗 [발구름 WEB IDE](https://k33d397de87b1a.user-app.krampoline.com/) ⚠️(2024년부터 배포가 중단되었습니다.)
 
 ## 백엔드 주요 기술 스택
 
