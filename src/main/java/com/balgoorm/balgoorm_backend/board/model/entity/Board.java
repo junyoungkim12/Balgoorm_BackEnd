@@ -72,5 +72,11 @@ public class Board {
     public void incrementViews() {
         this.viewCount++;
     }
+    // Board, BoardImage 양쪽에서 세팅
+    public void addBoardImage(BoardImage image) {
+        this.boardImages.add(image);    // Board에서 BoardImage를 추가
+        image.setBoard(this);           // BoardImage에서도 Board 연결
+    }
+
 }
 

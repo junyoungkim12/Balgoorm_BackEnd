@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Getter
@@ -15,6 +16,7 @@ public class BoardImage {
     private Long id;
     private String url;
 
+    @Setter
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "BOARD_ID", nullable = false)
     private Board board;
@@ -24,4 +26,5 @@ public class BoardImage {
         this.url = url;
         this.board = board;
     }
+
 }
