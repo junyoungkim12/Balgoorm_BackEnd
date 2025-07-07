@@ -2,12 +2,13 @@ package com.balgoorm.balgoorm_backend.board.model.entity;
 
 import com.balgoorm.balgoorm_backend.user.model.entity.User;
 import jakarta.persistence.*;
+import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
 @Getter
-@NoArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class View {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
